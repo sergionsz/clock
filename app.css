@@ -1,0 +1,23 @@
+body {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-container {
+  position: relative;
+  display: inline-block;
+}
+
+.next {
+  position: absolute;
+  left: 0;
+}
